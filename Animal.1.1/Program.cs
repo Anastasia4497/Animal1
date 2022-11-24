@@ -1,10 +1,43 @@
-﻿namespace Animal._1._1
+﻿using System.Reflection.Metadata;
+
+namespace Animal._1._1
 {
-    internal class Program
+
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
+
         {
-            Console.WriteLine("Hello, World!");
+            Console.Write("Введите имя жвотного: ");
+            string? name = Console.ReadLine();
+     
+            }
+         
+            
         }
     }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
